@@ -1,0 +1,90 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  gap: 0;
+  /* background-color: rgb(236, 248, 253); */
+}
+/* colors start */
+.l-yell{
+  background-color: rgb(248, 248, 209);
+}
+.grey{
+  background-color: rgb(184, 181, 181);
+}
+.white{
+  background-color: white;
+}
+.l-yellow{
+  background-color: rgb(242, 242, 168);
+}
+.l-blue{
+  background-color: rgb(241, 251, 255);
+}
+.pink{
+  background-color: bisque;
+}
+.yellow{
+  background-color: yellow;
+}
+/* colors end */
+/* most use style */
+.j-evenly{
+    justify-content: space-evenly;
+  }
+  .wrap{
+    flex: wrap;
+  }
+  .d-flex{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .gap{
+    padding: 20px;
+  }
+  .j-center{
+    justify-content:center;
+  
+  }
+  .t-center{
+    text-align: center;
+  }
+  .mt-10{
+    padding: 0.5rem;
+  }
+/* most use style */
+/* navbar styling start */
+.top{
+    list-style: none;
+    gap: 2rem;
+}
+input{
+    width: 50rem;
+    height: 2rem;
+}
+.blue{
+  color: lightskyblue;
+  font-size: 20px;
+}
+/* navbar styling end */
+/* mega deal styling start */
+.padd{
+  padding: 10px 5px 10px 5px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+/* mega deal styling end */
+/* applaince styling start */
+.p-gap{
+  gap: 1.4rem;
+}
+/* footer work start */
+li{
+  gap: 2rem;
+  margin-top: 10px;
+}
+/* footer work end  */
+/* applaince styling end */
+
